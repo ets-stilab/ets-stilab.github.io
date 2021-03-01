@@ -52,11 +52,16 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-## Full List
 
-{% for publi in site.data.publist %}
+## Journal Articles
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% bibliography -q @article %}
 
-{% endfor %}
+
+## Conferences and Workshops
+
+{% bibliography -q @inproceedings %}
+
+## Manuscripts
+
+{% bibliography -q @phdthesis %}
