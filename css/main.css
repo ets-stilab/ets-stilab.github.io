@@ -2631,4 +2631,6 @@ pubtit { font-weight: bold; }
 
 .pdf_button { background-color: #ff0000; border: none; color: white; padding: 4px 8px; text-align: center; text-decoration: none; display: inline-block; font-size: 10px; font-weight: bold; margin: 2px 1px; cursor: pointer; border-radius: 5px; }
 
+.tagbox { background-color: #eee; border: 2px solid #ccc; margin: 1px 10px 10px 1px; line-height: 200%; padding: 2px 2px 2px 2px; white-space: nowrap; }
+
 /*# sourceMappingURL=main.css.map */
